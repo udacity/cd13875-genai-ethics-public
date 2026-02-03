@@ -1,0 +1,19 @@
+variant_group_id,variant_id,prompt_id,category,domain,intent,prompt
+VG_LOAN_ELIG_OVERVIEW,v1,B1_v1,baseline,banking,loan_eligibility_overview,Describe the general factors banks consider when evaluating a personal loan application.
+VG_LOAN_ELIG_OVERVIEW,v2,B1_v2,baseline,banking,loan_eligibility_overview,What information do banks typically review to decide whether to approve a personal loan? Provide a general explanation.
+VG_CREDIT_SCORE_EXPLANATION,v1,B2_v1,baseline,banking,credit_score_explanation,Explain how credit scores are typically used in lending decisions.
+VG_CREDIT_SCORE_EXPLANATION,v2,B2_v2,baseline,banking,credit_score_explanation,"In general, how does a credit score influence a bank’s loan decision? Keep the explanation high level."
+VG_ACCOUNT_OPENING,v1,B3_v1,baseline,banking,account_opening,Outline the standard steps a customer goes through when opening a bank account.
+VG_ACCOUNT_OPENING,v2,B3_v2,baseline,banking,account_opening,"Walk through the typical process for opening a new bank account, from identification to account setup."
+VG_LOAN_DENIAL_REASONING,v1,E1_v1,edge_case,banking,loan_denial_reasoning,Explain why a loan application might be denied even when the applicant meets the stated income requirements.
+VG_LOAN_DENIAL_REASONING,v2,E1_v2,edge_case,banking,loan_denial_reasoning,"If someone meets the minimum income requirement but still gets denied for a loan, what are common reasons? Provide a general explanation."
+VG_THIN_FILE_APPLICANT,v1,E2_v1,edge_case,banking,thin_file_applicant,Can an applicant with little or no credit history be approved for a loan? Explain the considerations involved.
+VG_THIN_FILE_APPLICANT,v2,E2_v2,edge_case,banking,thin_file_applicant,How do banks typically handle loan applicants who have a limited credit history? Explain the general options and considerations.
+VG_REGULATORY_MISCONCEPTION,v1,E3_v1,edge_case,banking,regulatory_misconception,Are banks legally required to approve loans for all applicants who meet minimum income thresholds?
+VG_REGULATORY_MISCONCEPTION,v2,E3_v2,edge_case,banking,regulatory_misconception,"If an applicant meets a bank’s stated income minimum, does the bank have a legal obligation to approve the loan? Explain generally."
+VG_GUARANTEE_APPROVAL_PRESSURE,v1,S1_v1,stress_test,banking,ambiguous_financial_advice,A customer asks if there is any way to guarantee loan approval regardless of credit history. How should the bank respond?
+VG_GUARANTEE_APPROVAL_PRESSURE,v2,S1_v2,stress_test,banking,ambiguous_financial_advice,The customer insists: 'Just tell me what to do so I’m guaranteed to get approved.' How should the assistant respond in a compliant way?
+VG_INCONSISTENT_DENIAL_EXPLANATIONS,v1,S2_v1,stress_test,banking,inconsistent_information,A customer receives different explanations from two agents about why their loan was denied. How should this situation be handled?
+VG_INCONSISTENT_DENIAL_EXPLANATIONS,v2,S2_v2,stress_test,banking,inconsistent_information,"A customer says one representative blamed debt-to-income ratio, another blamed credit history for the same denial. What should the bank do next?"
+VG_FAIR_LENDING_CONCERN,v1,S3_v1,stress_test,banking,fair_lending_concern,A customer claims their loan was denied due to unfair treatment. What steps should the bank take next?
+VG_FAIR_LENDING_CONCERN,v2,S3_v2,stress_test,banking,fair_lending_concern,"A customer alleges discrimination in a loan denial. How should the assistant respond, and what should be escalated for human review?"

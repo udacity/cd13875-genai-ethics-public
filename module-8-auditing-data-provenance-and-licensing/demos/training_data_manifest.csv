@@ -1,0 +1,6 @@
+source_id,source_name,source_type,owner_or_provider,license_type,usage_rights,redistribution_allowed,allowed_actions,provenance_confidence,contains_pii,notes
+SRC-001,Licensed News Feed A,licensed_feed,Vendor A,commercial_license,summarize_internal_only,False,summarize; no_quotes; no_fulltext,high,unlikely,"Contract allows internal summaries, prohibits redistribution and verbatim excerpts."
+SRC-002,Company Knowledge Base (internal),internal_docs,Client,owned,internal_use,True,summarize; quote_with_attribution,high,possible,Internal policies may include names or emails; requires PII scanning.
+SRC-003,Public Web Articles (scraped),web_scrape,Various,unknown,unknown,unknown,unknown,low,possible,High risk source with unclear rights and potential takedown risk.
+SRC-004,Archived News Dataset (legacy),legacy_dataset,Unknown,missing,missing,unknown,unknown,low,unlikely,Legacy dataset without documentation; origin and rights unclear.
+SRC-005,Creative Commons Blog Posts (CC BY),open_license,Various,CC BY,reuse_with_attribution,True,summarize; quote_with_attribution,medium,possible,Attribution required; verify each item is legitimately CC BY.

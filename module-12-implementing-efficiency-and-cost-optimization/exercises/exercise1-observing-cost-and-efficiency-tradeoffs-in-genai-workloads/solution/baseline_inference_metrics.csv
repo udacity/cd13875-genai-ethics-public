@@ -1,0 +1,7 @@
+metric,baseline_value,notes
+p50_latency_ms,420.0,Median end-to-end inference latency
+p95_latency_ms,980.0,Tail latency under moderate load
+throughput_requests_per_sec,18.0,Sustained throughput under steady traffic
+average_memory_gb,22.5,Average GPU memory utilization
+cost_per_1k_requests_usd,7.4,Estimated cloud cost based on instance pricing
+estimated_energy_kwh_per_1k_requests,3.2,Rough estimate based on compute utilization
