@@ -1,0 +1,2 @@
+scenario,model,requests_per_day,avg_input_tokens,avg_output_tokens,p50_latency_ms,p95_latency_ms,tokens_per_second,gpu_utilization_pct,avg_power_watts,cost_per_1k_tokens_usd,quality_score
+post_optimization,LLM-v1 (INT8) + batching,120000,650,220,650,2100,135,62,265,0.002,0.9

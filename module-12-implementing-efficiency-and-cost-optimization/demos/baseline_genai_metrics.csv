@@ -1,0 +1,2 @@
+scenario,model,requests_per_day,avg_input_tokens,avg_output_tokens,p50_latency_ms,p95_latency_ms,tokens_per_second,gpu_utilization_pct,avg_power_watts,cost_per_1k_tokens_usd,quality_score
+baseline,LLM-v1 (FP16),120000,650,220,650,1800,95,62,320,0.0025,0.92
